@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RM" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RM" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add directory="/usr/local/lib/arm-linux-gnueabihf" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RM" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-march=corei7-avx" />
+					<Add option="-O3" />
+					<Add option="-s" />
+				</Compiler>
+				<Linker>
+					<Add directory="/usr/local/lib/arm-linux-gnueabihf" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="`opencv-config --cxxflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="`opencv-config --ldstaticflags`" />
+			<Add option="-lpthread" />
+			<Add library="/usr/local/lib/libopencv_calib3d.so" />
+			<Add library="/usr/local/lib/libopencv_core.so" />
+			<Add library="/usr/local/lib/libopencv_dnn.so" />
+			<Add library="/usr/local/lib/libopencv_features2d.so" />
+			<Add library="/usr/local/lib/libopencv_flann.so" />
+			<Add library="/usr/local/lib/libopencv_highgui.so" />
+			<Add library="/usr/local/lib/libopencv_imgcodecs.so" />
+			<Add library="/usr/local/lib/libopencv_imgproc.so" />
+			<Add library="/usr/local/lib/libopencv_ml.so" />
+			<Add library="/usr/local/lib/libopencv_objdetect.so" />
+			<Add library="/usr/local/lib/libopencv_photo.so" />
+			<Add library="/usr/local/lib/libopencv_shape.so" />
+			<Add library="/usr/local/lib/libopencv_stitching.so" />
+			<Add library="/usr/local/lib/libopencv_superres.so" />
+			<Add library="/usr/local/lib/libopencv_video.so" />
+			<Add library="/usr/local/lib/libopencv_videoio.so" />
+			<Add library="/usr/local/lib/libopencv_videostab.so" />
+		</Linker>
+		<Unit filename="AngleSolver.cpp" />
+		<Unit filename="AngleSolver.hpp" />
+		<Unit filename="ArmorDetector.cpp" />
+		<Unit filename="ArmorDetector.hpp" />
+		<Unit filename="CMakeLists.txt" />
+		<Unit filename="ImageConsProd.cpp" />
+		<Unit filename="ImageConsProd.hpp" />
+		<Unit filename="LedController.hpp" />
+		<Unit filename="Predictor.cpp" />
+		<Unit filename="Predictor.hpp" />
+		<Unit filename="RMVideoCapture.cpp" />
+		<Unit filename="RMVideoCapture.hpp" />
+		<Unit filename="RMVision.pro" />
+		<Unit filename="RMVision.pro.user" />
+		<Unit filename="ReadMe.txt" />
+		<Unit filename="RemoteController.cpp" />
+		<Unit filename="RemoteController.hpp" />
+		<Unit filename="RuneDetector.cpp" />
+		<Unit filename="RuneDetector.hpp" />
+		<Unit filename="RuneResFilter.cpp" />
+		<Unit filename="RuneResFilter.hpp" />
+		<Unit filename="Settings.hpp" />
+		<Unit filename="calibration-param/camera-2-100-imagelist.xml" />
+		<Unit filename="calibration-param/camera-MH-100-imagelist-640.xml" />
+		<Unit filename="calibration-param/camera-MH-100-imagelist.xml" />
+		<Unit filename="calibration-param/camera-RM3-01-640.xml" />
+		<Unit filename="calibration-param/camera-RM3-01.xml" />
+		<Unit filename="calibration-param/camera-RM3-02-640.xml" />
+		<Unit filename="calibration-param/camera-RM3-02.xml" />
+		<Unit filename="calibration-param/camera-RM3-03-640.xml" />
+		<Unit filename="calibration-param/camera-RM3-03.xml" />
+		<Unit filename="calibration-param/camera-RM3-04-640.xml" />
+		<Unit filename="calibration-param/camera-RM3-04.xml" />
+		<Unit filename="calibration-param/camera-RM3-05-640.xml" />
+		<Unit filename="calibration-param/camera-RM3-05.xml" />
+		<Unit filename="calibration-param/camera-RM3-06-640.xml" />
+		<Unit filename="calibration-param/camera-RM3-06.xml" />
+		<Unit filename="calibration-param/camera-RM3-07-640.xml" />
+		<Unit filename="calibration-param/camera-RM3-07.xml" />
+		<Unit filename="calibration-param/camera-RM3-08-640.xml" />
+		<Unit filename="calibration-param/camera-RM3-08.xml" />
+		<Unit filename="calibration-param/param_config.xml" />
+		<Unit filename="cmdline.h" />
+		<Unit filename="lenet.prototxt" />
+		<Unit filename="lenet_iter_10000.caffemodel" />
+		<Unit filename="main.cpp" />
+		<Unit filename="param_config.xml" />
+		<Unit filename="rune.cpp" />
+		<Unit filename="rune.hpp" />
+		<Unit filename="serial.cpp" />
+		<Unit filename="serial.h" />
+		<Unit filename="small_template.bmp" />
+		<Unit filename="sse_to_neon.hpp" />
+		<Unit filename="template.bmp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

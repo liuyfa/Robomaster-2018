@@ -1,0 +1,445 @@
+# depslib dependency file v1.0
+1525443150 source:/home/deepin/RM/AngleSolver.cpp
+	"AngleSolver.hpp"
+	"opencv2/opencv.hpp"
+
+1525443150 /home/deepin/RM/AngleSolver.hpp
+	"opencv2/core/core.hpp"
+
+1525443150 source:/home/deepin/RM/ArmorDetector.cpp
+	"ArmorDetector.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	<iostream>
+	<queue>
+	<sse_to_neon.hpp>
+	<arm_neon.h>
+	<stdlib.h>
+
+1525443150 /home/deepin/RM/ArmorDetector.hpp
+	"opencv2/highgui/highgui.hpp"
+	"AngleSolver.hpp"
+
+1525710061 source:/home/deepin/RM/ImageConsProd.cpp
+	"ImageConsProd.hpp"
+	"Predictor.hpp"
+	"RuneDetector.hpp"
+	"RuneResFilter.hpp"
+	"AngleSolver.hpp"
+	"RMVideoCapture.hpp"
+	"serial.h"
+	"rune.hpp"
+
+1525443154 /home/deepin/RM/ImageConsProd.hpp
+	"opencv2/opencv.hpp"
+	"ArmorDetector.hpp"
+	"Settings.hpp"
+
+1525443155 /home/deepin/RM/Settings.hpp
+	"opencv2/core/core.hpp"
+	<string>
+	"ArmorDetector.hpp"
+
+1525443149 /home/deepin/RM/Predictor.hpp
+	<list>
+
+1525443155 /home/deepin/RM/RuneDetector.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/dnn.hpp"
+	<vector>
+	<utility>
+
+1525443155 /home/deepin/RM/RuneResFilter.hpp
+	<list>
+
+1525443155 /home/deepin/RM/RMVideoCapture.hpp
+	"opencv2/core.hpp"
+
+1525443155 /home/deepin/RM/serial.h
+
+1525443155 source:/home/deepin/RM/Predictor.cpp
+	"Predictor.hpp"
+	"opencv2/opencv.hpp"
+	<algorithm>
+
+1525443155 source:/home/deepin/RM/RemoteController.cpp
+	"RemoteController.hpp"
+	<unistd.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<fcntl.h>
+
+1525443155 /home/deepin/RM/RemoteController.hpp
+	"Settings.hpp"
+	"cmdline.h"
+
+1525443150 /home/deepin/RM/cmdline.h
+	<iostream>
+	<sstream>
+	<vector>
+	<map>
+	<string>
+	<stdexcept>
+	<typeinfo>
+	<cstring>
+	<algorithm>
+	<cxxabi.h>
+	<cstdlib>
+
+1525443155 source:/home/deepin/RM/RMVideoCapture.cpp
+	"RMVideoCapture.hpp"
+	"linux/videodev2.h"
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/mman.h>
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	<iostream>
+
+1525443155 source:/home/deepin/RM/RuneDetector.cpp
+	"RuneDetector.hpp"
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/calib3d/calib3d.hpp>
+	<opencv2/features2d/features2d.hpp>
+	"opencv2/dnn.hpp"
+	<iostream>
+
+1525443155 source:/home/deepin/RM/RuneResFilter.cpp
+	"RuneResFilter.hpp"
+	"opencv2/core/core.hpp"
+
+1525443155 source:/home/deepin/RM/serial.cpp
+	"serial.h"
+	<math.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+
+1525679995 source:/home/deepin/RM/main.cpp
+	"ImageConsProd.hpp"
+	"RemoteController.hpp"
+	"Settings.hpp"
+	"serial.h"
+	<thread>
+	<unistd.h>
+	"RMVideoCapture.hpp"
+	"opencv2/highgui.hpp"
+	<iostream>
+
+1525443155 /home/deepin/RM/rune.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<opencv2/core/core.hpp>
+	<vector>
+	<utility>
+	<cstdio>
+
+1525710180 source:/home/deepin/RM/rune.cpp
+	"rune.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/opencv.hpp"
+	<stdlib.h>
+	<stdio.h>
+
+1525167320 source:/home/deepin/RM-0501/AngleSolver.cpp
+	"AngleSolver.hpp"
+	"opencv2/opencv.hpp"
+
+1525167320 /home/deepin/RM-0501/AngleSolver.hpp
+	"opencv2/core/core.hpp"
+
+1525167320 source:/home/deepin/RM-0501/ArmorDetector.cpp
+	"ArmorDetector.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	<iostream>
+	<queue>
+	<sse_to_neon.hpp>
+	<arm_neon.h>
+	<stdlib.h>
+
+1525167320 /home/deepin/RM-0501/ArmorDetector.hpp
+	"opencv2/highgui/highgui.hpp"
+	"AngleSolver.hpp"
+
+1525277286 source:/home/deepin/RM-0501/ImageConsProd.cpp
+	"ImageConsProd.hpp"
+	"Predictor.hpp"
+	"RuneDetector.hpp"
+	"RuneResFilter.hpp"
+	"AngleSolver.hpp"
+	"RMVideoCapture.hpp"
+	"serial.h"
+	"rune.hpp"
+
+1525167320 /home/deepin/RM-0501/ImageConsProd.hpp
+	"opencv2/opencv.hpp"
+	"ArmorDetector.hpp"
+	"Settings.hpp"
+
+1525167321 /home/deepin/RM-0501/Settings.hpp
+	"opencv2/core/core.hpp"
+	<string>
+	"ArmorDetector.hpp"
+
+1525167321 /home/deepin/RM-0501/Predictor.hpp
+	<list>
+
+1525167414 /home/deepin/RM-0501/RuneDetector.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/dnn.hpp"
+	<vector>
+	<utility>
+
+1525167321 /home/deepin/RM-0501/RuneResFilter.hpp
+	<list>
+
+1525167321 /home/deepin/RM-0501/RMVideoCapture.hpp
+	"opencv2/core.hpp"
+
+1525167321 /home/deepin/RM-0501/serial.h
+
+1525167320 /home/deepin/RM-0501/rune.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<opencv2/core/core.hpp>
+	<vector>
+	<utility>
+	<cstdio>
+
+1525248602 source:/home/deepin/RM-0501/main.cpp
+	"ImageConsProd.hpp"
+	"RemoteController.hpp"
+	"Settings.hpp"
+	"serial.h"
+	<thread>
+	<unistd.h>
+	"RMVideoCapture.hpp"
+	"opencv2/highgui.hpp"
+	<iostream>
+
+1525167321 /home/deepin/RM-0501/RemoteController.hpp
+	"Settings.hpp"
+	"cmdline.h"
+
+1525167320 /home/deepin/RM-0501/cmdline.h
+	<iostream>
+	<sstream>
+	<vector>
+	<map>
+	<string>
+	<stdexcept>
+	<typeinfo>
+	<cstring>
+	<algorithm>
+	<cxxabi.h>
+	<cstdlib>
+
+1525167321 source:/home/deepin/RM-0501/Predictor.cpp
+	"Predictor.hpp"
+	"opencv2/opencv.hpp"
+	<algorithm>
+
+1525169036 source:/home/deepin/RM-0501/RemoteController.cpp
+	"RemoteController.hpp"
+	<unistd.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<fcntl.h>
+
+1525167321 source:/home/deepin/RM-0501/RMVideoCapture.cpp
+	"RMVideoCapture.hpp"
+	"linux/videodev2.h"
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/mman.h>
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	<iostream>
+
+1525277052 source:/home/deepin/RM-0501/rune.cpp
+	"rune.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/opencv.hpp"
+	<stdlib.h>
+	<stdio.h>
+
+1525167320 source:/home/deepin/RM-0501/RuneDetector.cpp
+	"RuneDetector.hpp"
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/calib3d/calib3d.hpp>
+	<opencv2/features2d/features2d.hpp>
+	"opencv2/dnn.hpp"
+	<iostream>
+
+1525167594 source:/home/deepin/RM-0501/RuneResFilter.cpp
+	"RuneResFilter.hpp"
+	"opencv2/core/core.hpp"
+
+1525167321 source:/home/deepin/RM-0501/serial.cpp
+	"serial.h"
+	<math.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+
+1525443150 source:/home/deepin/RM-0504/AngleSolver.cpp
+	"AngleSolver.hpp"
+	"opencv2/opencv.hpp"
+
+1525443150 /home/deepin/RM-0504/AngleSolver.hpp
+	"opencv2/core/core.hpp"
+
+1525443150 source:/home/deepin/RM-0504/ArmorDetector.cpp
+	"ArmorDetector.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	<iostream>
+	<queue>
+	<sse_to_neon.hpp>
+	<arm_neon.h>
+	<stdlib.h>
+
+1525443150 /home/deepin/RM-0504/ArmorDetector.hpp
+	"opencv2/highgui/highgui.hpp"
+	"AngleSolver.hpp"
+
+1525453620 source:/home/deepin/RM-0504/ImageConsProd.cpp
+	"ImageConsProd.hpp"
+	"Predictor.hpp"
+	"RuneDetector.hpp"
+	"RuneResFilter.hpp"
+	"AngleSolver.hpp"
+	"RMVideoCapture.hpp"
+	"serial.h"
+	"rune.hpp"
+
+1525443154 /home/deepin/RM-0504/ImageConsProd.hpp
+	"opencv2/opencv.hpp"
+	"ArmorDetector.hpp"
+	"Settings.hpp"
+
+1525443155 /home/deepin/RM-0504/Settings.hpp
+	"opencv2/core/core.hpp"
+	<string>
+	"ArmorDetector.hpp"
+
+1525443149 /home/deepin/RM-0504/Predictor.hpp
+	<list>
+
+1525443155 /home/deepin/RM-0504/RuneDetector.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/dnn.hpp"
+	<vector>
+	<utility>
+
+1525443155 /home/deepin/RM-0504/RuneResFilter.hpp
+	<list>
+
+1525443155 /home/deepin/RM-0504/RMVideoCapture.hpp
+	"opencv2/core.hpp"
+
+1525443155 /home/deepin/RM-0504/serial.h
+
+1525443155 /home/deepin/RM-0504/rune.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui.hpp"
+	<opencv2/core/core.hpp>
+	<vector>
+	<utility>
+	<cstdio>
+
+1525443155 source:/home/deepin/RM-0504/Predictor.cpp
+	"Predictor.hpp"
+	"opencv2/opencv.hpp"
+	<algorithm>
+
+1525443155 source:/home/deepin/RM-0504/RemoteController.cpp
+	"RemoteController.hpp"
+	<unistd.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<fcntl.h>
+
+1525443155 /home/deepin/RM-0504/RemoteController.hpp
+	"Settings.hpp"
+	"cmdline.h"
+
+1525443150 /home/deepin/RM-0504/cmdline.h
+	<iostream>
+	<sstream>
+	<vector>
+	<map>
+	<string>
+	<stdexcept>
+	<typeinfo>
+	<cstring>
+	<algorithm>
+	<cxxabi.h>
+	<cstdlib>
+
+1525443155 source:/home/deepin/RM-0504/RMVideoCapture.cpp
+	"RMVideoCapture.hpp"
+	"linux/videodev2.h"
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/mman.h>
+	"opencv2/highgui.hpp"
+	"opencv2/imgproc.hpp"
+	<iostream>
+
+1525443358 source:/home/deepin/RM-0504/rune.cpp
+	"rune.hpp"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/opencv.hpp"
+	<stdlib.h>
+	<stdio.h>
+
+1525443155 source:/home/deepin/RM-0504/RuneDetector.cpp
+	"RuneDetector.hpp"
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/calib3d/calib3d.hpp>
+	<opencv2/features2d/features2d.hpp>
+	"opencv2/dnn.hpp"
+	<iostream>
+
+1525443155 source:/home/deepin/RM-0504/RuneResFilter.cpp
+	"RuneResFilter.hpp"
+	"opencv2/core/core.hpp"
+
+1525443155 source:/home/deepin/RM-0504/serial.cpp
+	"serial.h"
+	<math.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+
+1525443154 source:/home/deepin/RM-0504/main.cpp
+	"ImageConsProd.hpp"
+	"RemoteController.hpp"
+	"Settings.hpp"
+	"serial.h"
+	<thread>
+	<unistd.h>
+	"RMVideoCapture.hpp"
+	"opencv2/highgui.hpp"
+	<iostream>
+
